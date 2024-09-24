@@ -1,0 +1,38 @@
+.div {
+    background-image: url(chatbg.png); /* property specifies the the bg-image of an html element */
+    height: 100vh;
+    background-size: cover;   /*property specifies the size of the bg-image of an html element*/
+    text-align: center;
+    color: white;        /*color propert specifies the color of the text*/
+}
+
+.h1 {
+    background-color: #323f4b;   /*propert specifies the bg-color of an html element*/
+    font-family: "Roboto";    /*property specifies the font for an element */
+    font-size: 14px;   /*propert specifies the size of the text. To use font families you need to import their style sheets into your css file*/
+    padding: 10px;
+}
+
+.para1 {
+    background-color: #47a3f3;
+    padding: 10px;
+    font-family: "Roboto";
+    font-size: 14px;
+    text-align: right;
+    border-radius: 10px;     /*property specifies the roundness of the corners of an html element*/
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.para2 {
+    background-color: #52606d;
+    padding: 10px;       /*property specifies the space around the content of an html element*/
+    font-family: "Roboto";
+    font-size: 14px;
+    text-align: left;
+    border-radius: 10px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
